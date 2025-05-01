@@ -1,0 +1,128 @@
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.projects-full {
+  padding: 20px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.project-detail {
+  margin-bottom: 50px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 40px;
+}
+
+.heading{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.project-title {
+  font-size: 2rem;
+  height: 60px;
+  margin-bottom: 10px;
+  text-align: center;
+  background-color: #424242;
+  color: white;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.project-description {
+  font-size: 1.1rem;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+/* Project images section */
+.project-images {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 5%;
+  margin: 0 auto 20px auto;
+  max-width: 1000px; /* Controls the overall width of the image layout */
+}
+
+/* Left large image */
+.imgage1 {
+  width: 100%;
+}
+
+.imgage1 img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: 6px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Right stacked images */
+.image23 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.image23 img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: 6px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Key features section */
+.key-features {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.key-features h3 {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+.key-features ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+.key-features li {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .project-images {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .imgage1,
+  .image23 {
+    width: 100%;
+  }
+
+  .image23 {
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  .image23 img {
+    width: 50%;
+    height: auto;
+  }
+}

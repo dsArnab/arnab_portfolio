@@ -1,0 +1,44 @@
+.footer {
+  background-color: #00695c;
+  margin-top: 16px;
+  color: white;
+  padding: 2rem 1rem;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.footer .MuiTypography-root {
+  font-size: 0.95rem;
+  color: white;
+}
+
+.footer .MuiIconButton-root svg {
+  color: white;
+  font-size: 20px;
+}
+
+.footer .MuiTypography-root.header {
+  font-size: 1.3rem;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+/* Align icon-text rows */
+.footer .contact-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.75rem;
+}
+
+/* Responsive tweak */
+@media (max-width: 600px) {
+  .footer .contact-row {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footer .contact-row .MuiTypography-root {
+    margin-left: 0 !important;
+    margin-top: 4px;
+  }
+}
