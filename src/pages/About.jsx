@@ -13,10 +13,8 @@ const About = () => {
         <section>
           <h2>Summary</h2>
           <p>
-            3+ years of experience as a Team Lead in the EdTech sector, with a
-            focus on project management, cross-functional leadership, and educational
-            content development. Proficient in full-stack development and automation tools,
-            with a proven track record of delivering efficient, scalable solutions.
+          Full-Stack Developer with hands-on experience building scalable and responsive web applications using the MERN stack.
+          Proficient in React.js, Node.js, Express.js, MongoDB, and RESTful APIs, with hands-on experience delivering real-world projects. Passionate about clean code, intuitive UI/UX, and solving complex problems through technology. Open to Full-Stack Developer roles where I can contribute to impactful products, collaborate with driventeams, and continue learning and growing in the tech space.
           </p>
         </section>
 

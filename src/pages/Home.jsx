@@ -27,7 +27,7 @@ const Home = () => {
         />
         <h2>
           Hi, I’m Arnab Das, a Full-Stack Developer with hands-on experience in
-          leading teams within the EdTech industry.
+          building scalable and responsive web applications using the MERN stack.
         </h2>
       </div>
 
